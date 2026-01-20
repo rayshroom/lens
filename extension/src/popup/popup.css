@@ -1,0 +1,223 @@
+:root {
+    --bg-color: #faf9f6;
+    /* Off-white / Paper */
+    --text-color: #1a1a1a;
+    --accent-color: #2c3e50;
+    --secondary-text: #666;
+    --border-color: #e0e0e0;
+    --font-serif: 'Crimson Pro', serif;
+    --font-sans: 'Inter', sans-serif;
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #1c1c1e;
+        --text-color: #f1f1f1;
+        --secondary-text: #a1a1aa;
+        --border-color: #333;
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    font-family: var(--font-sans);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.logo {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    color: var(--secondary-text);
+    text-transform: uppercase;
+}
+
+.principle {
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 24px;
+    min-height: 80px;
+    /* Prevent jump */
+}
+
+/* Input Section */
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section.hidden {
+    display: none;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    background: transparent;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    color: var(--text-color);
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]::placeholder {
+    color: var(--secondary-text);
+    opacity: 0.6;
+}
+
+input[type="text"]:focus {
+    border-bottom-color: var(--text-color);
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn.primary {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+
+.btn.primary:hover {
+    opacity: 0.9;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+}
+
+.btn.secondary:hover {
+    border-color: var(--text-color);
+}
+
+.btn.icon-only {
+    background: transparent;
+    color: var(--secondary-text);
+    padding: 8px;
+    margin-left: auto;
+    /* Push to right */
+}
+
+.btn.icon-only:hover {
+    color: var(--text-color);
+    background-color: rgba(125, 125, 125, 0.1);
+}
+
+/* Reflect Content */
+.reflect-content {
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    animation: slideDown 0.3s ease-out;
+}
+
+.reflect-content.hidden {
+    display: none;
+}
+
+.label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--secondary-text);
+    margin-bottom: 8px;
+}
+
+.prompts-group ul {
+    margin: 0 0 20px 0;
+    padding-left: 18px;
+}
+
+.prompts-group li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+    color: var(--text-color);
+}
+
+.counter-text {
+    font-family: var(--font-serif);
+    font-style: italic;
+    color: var(--text-color);
+    line-height: 1.4;
+}
+
+footer {
+    margin-top: 32px;
+    font-size: 0.7rem;
+    color: var(--secondary-text);
+    text-align: center;
+    padding-top: 16px;
+}
+
+/* Animations */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

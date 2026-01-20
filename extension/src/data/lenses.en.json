@@ -1,0 +1,422 @@
+[
+    {
+        "id": "lens_001",
+        "principle": "Complex situations are often shaped by one dominant constraint rather than many equal factors.",
+        "prompts": [
+            "What factor, if changed, would most alter the outcome?",
+            "Which constraint is actually binding right now?"
+        ],
+        "counter": "What might you overlook by focusing too narrowly on a single constraint?",
+        "tags": [
+            "decision",
+            "systems"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_002",
+        "principle": "Not all problems require immediate resolution; some benefit from being observed over time.",
+        "prompts": [
+            "What would change if you waited before acting?",
+            "Which parts of this situation are still unfolding?"
+        ],
+        "counter": "What risks come from delaying too long?",
+        "tags": [
+            "timing",
+            "decision"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_003",
+        "principle": "Clarity often improves when a situation is separated into what you can influence and what you cannot.",
+        "prompts": [
+            "What elements are within your direct control?",
+            "Where are you spending energy on things you cannot change?"
+        ],
+        "counter": "Are there indirect ways influence might still exist?",
+        "tags": [
+            "control",
+            "agency"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_004",
+        "principle": "Conflicting pressures can coexist without one being immediately resolved.",
+        "prompts": [
+            "What tensions are you trying to eliminate too quickly?",
+            "What happens if both sides are acknowledged?"
+        ],
+        "counter": "When does coexistence turn into avoidance?",
+        "tags": [
+            "conflict",
+            "balance"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_005",
+        "principle": "A situation may appear personal while being largely shaped by structural conditions.",
+        "prompts": [
+            "What external structures are influencing this situation?",
+            "How much of this is about you, and how much is systemic?"
+        ],
+        "counter": "Where might personal agency still matter more than structure?",
+        "tags": [
+            "systems",
+            "perspective"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_006",
+        "principle": "Short-term relief and long-term alignment often pull in different directions.",
+        "prompts": [
+            "What provides immediate relief here?",
+            "What aligns better with your longer horizon?"
+        ],
+        "counter": "Are long-term considerations being used to avoid present discomfort?",
+        "tags": [
+            "tradeoff",
+            "time"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_007",
+        "principle": "The absence of action is itself a form of action with consequences.",
+        "prompts": [
+            "What happens if nothing changes?",
+            "Who benefits from inaction in this situation?"
+        ],
+        "counter": "When might restraint be more intentional than reactive?",
+        "tags": [
+            "decision",
+            "inaction"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_008",
+        "principle": "Problems framed too broadly often feel overwhelming and immovable.",
+        "prompts": [
+            "How could this be narrowed without oversimplifying?",
+            "What is the smallest meaningful version of this issue?"
+        ],
+        "counter": "What important context might be lost by narrowing?",
+        "tags": [
+            "framing",
+            "scope"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_009",
+        "principle": "What feels urgent is not always what is most important.",
+        "prompts": [
+            "What is driving the sense of urgency?",
+            "What remains important even if urgency fades?"
+        ],
+        "counter": "When does urgency signal a real constraint?",
+        "tags": [
+            "priority",
+            "time"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_010",
+        "principle": "Repeated patterns often reveal more than isolated events.",
+        "prompts": [
+            "What patterns does this situation belong to?",
+            "How often has something similar occurred?"
+        ],
+        "counter": "When is a situation truly an exception?",
+        "tags": [
+            "patterns",
+            "reflection"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_011",
+        "principle": "Trade-offs become clearer when alternatives are stated explicitly.",
+        "prompts": [
+            "What are you choosing between, in simple terms?",
+            "What does each option make harder?"
+        ],
+        "counter": "Is there an assumed option that hasn’t been questioned?",
+        "tags": [
+            "tradeoff",
+            "decision"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_012",
+        "principle": "A single perspective rarely captures the full shape of a situation.",
+        "prompts": [
+            "Whose viewpoint is missing?",
+            "How would this look from a different role or time horizon?"
+        ],
+        "counter": "Which perspectives might distort more than clarify?",
+        "tags": [
+            "perspective",
+            "context"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_013",
+        "principle": "Certainty can feel stabilizing even when it is premature.",
+        "prompts": [
+            "Where are you seeking certainty too early?",
+            "What assumptions are being treated as facts?"
+        ],
+        "counter": "When does uncertainty block necessary action?",
+        "tags": [
+            "uncertainty",
+            "decision"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_014",
+        "principle": "Effort does not always correlate with impact.",
+        "prompts": [
+            "Where does effort produce the most leverage?",
+            "Which actions consume energy without changing outcomes?"
+        ],
+        "counter": "What low-effort actions might still matter?",
+        "tags": [
+            "leverage",
+            "work"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_015",
+        "principle": "Some conflicts are about values rather than solvable problems.",
+        "prompts": [
+            "What values are in tension here?",
+            "Is resolution possible, or only navigation?"
+        ],
+        "counter": "When is a values conflict being mistaken for a practical issue?",
+        "tags": [
+            "values",
+            "conflict"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_016",
+        "principle": "Clarity often comes from naming what you are protecting.",
+        "prompts": [
+            "What are you trying to preserve?",
+            "What would feel lost if this changed?"
+        ],
+        "counter": "What might be overprotected at the cost of growth?",
+        "tags": [
+            "values",
+            "risk"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_017",
+        "principle": "Constraints can guide focus as much as they limit options.",
+        "prompts": [
+            "What constraints define this situation?",
+            "How might they simplify choices?"
+        ],
+        "counter": "Which constraints are assumed rather than real?",
+        "tags": [
+            "constraints",
+            "systems"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_018",
+        "principle": "Decisions often feel heavier when identity is attached to outcomes.",
+        "prompts": [
+            "What does this choice say about who you are?",
+            "Which parts are about identity rather than consequence?"
+        ],
+        "counter": "When does detaching identity reduce responsibility?",
+        "tags": [
+            "identity",
+            "decision"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_019",
+        "principle": "Some problems persist because they serve an unspoken function.",
+        "prompts": [
+            "Who benefits from this staying unresolved?",
+            "What role does the problem play?"
+        ],
+        "counter": "When is this explanation too cynical?",
+        "tags": [
+            "systems",
+            "incentives"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_020",
+        "principle": "Context can change the meaning of the same action.",
+        "prompts": [
+            "How does timing affect this choice?",
+            "What would make the same action feel different later?"
+        ],
+        "counter": "When does context become an excuse for indecision?",
+        "tags": [
+            "context",
+            "timing"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_021",
+        "principle": "Losses are often clearer than gains, but both shape decisions.",
+        "prompts": [
+            "What feels most at risk?",
+            "What potential gains are harder to see?"
+        ],
+        "counter": "When do imagined gains outweigh realistic losses?",
+        "tags": [
+            "risk",
+            "tradeoff"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_022",
+        "principle": "Ambiguity can be reduced by defining what success would look like.",
+        "prompts": [
+            "What would count as a good enough outcome?",
+            "How would you recognize progress?"
+        ],
+        "counter": "When does defining success too early limit options?",
+        "tags": [
+            "clarity",
+            "goals"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_023",
+        "principle": "Some choices are reversible, while others are not.",
+        "prompts": [
+            "What is easiest to undo?",
+            "Which consequences would be hardest to reverse?"
+        ],
+        "counter": "When does fear of irreversibility exaggerate risk?",
+        "tags": [
+            "risk",
+            "decision"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_024",
+        "principle": "Energy levels can distort how problems are perceived.",
+        "prompts": [
+            "How tired or stressed are you right now?",
+            "Would this look different with more rest or distance?"
+        ],
+        "counter": "When is energy being used as an excuse to avoid engagement?",
+        "tags": [
+            "state",
+            "self"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_025",
+        "principle": "Past investments can weigh on present choices.",
+        "prompts": [
+            "What have you already put into this?",
+            "How much does that investment influence you now?"
+        ],
+        "counter": "When is persistence actually consistency?",
+        "tags": [
+            "sunk_cost",
+            "decision"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_026",
+        "principle": "Not all feedback is equally informative.",
+        "prompts": [
+            "Whose feedback are you prioritizing?",
+            "What incentives shape their perspective?"
+        ],
+        "counter": "When does filtering feedback become avoidance?",
+        "tags": [
+            "feedback",
+            "perspective"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_027",
+        "principle": "A situation can be stable without being satisfying.",
+        "prompts": [
+            "What keeps this stable?",
+            "What feels unresolved despite stability?"
+        ],
+        "counter": "When does dissatisfaction signal unnecessary disruption?",
+        "tags": [
+            "stability",
+            "change"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_028",
+        "principle": "Clarity sometimes comes from defining what you are willing to give up.",
+        "prompts": [
+            "What are you not willing to sacrifice?",
+            "What could you let go of?"
+        ],
+        "counter": "When does holding on protect something essential?",
+        "tags": [
+            "values",
+            "tradeoff"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_029",
+        "principle": "Simpler explanations are often preferred, but not always accurate.",
+        "prompts": [
+            "What complexity might be hidden here?",
+            "Why does a simple explanation feel appealing?"
+        ],
+        "counter": "When does complexity obscure rather than clarify?",
+        "tags": [
+            "complexity",
+            "thinking"
+        ],
+        "version": 1
+    },
+    {
+        "id": "lens_030",
+        "principle": "Some clarity emerges only after a small step is taken.",
+        "prompts": [
+            "What is a low-risk next step?",
+            "What could you learn by acting a little?"
+        ],
+        "counter": "When does action replace necessary reflection?",
+        "tags": [
+            "action",
+            "learning"
+        ],
+        "version": 1
+    }
+]

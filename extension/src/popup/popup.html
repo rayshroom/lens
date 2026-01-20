@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lens</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">Lens</span>
+            <!-- Settings icon could go here -->
+        </header>
+
+        <main id="card-container">
+            <div id="principle-display" class="principle fade-in">
+                <!-- Principle text goes here -->
+            </div>
+
+            <div id="input-section" class="input-section hidden">
+                <input type="text" id="user-input" placeholder="If you want, write your situation in one sentence." autocomplete="off">
+            </div>
+
+            <div class="actions">
+                <button id="btn-reflect" class="btn secondary" aria-label="Reflect on this">Reflect</button>
+                <button id="btn-new" class="btn primary" aria-label="Get a new lens">New Lens</button>
+                <button id="btn-copy" class="btn icon-only" aria-label="Copy to clipboard" title="Copy">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <div id="reflect-content" class="reflect-content hidden">
+                <div class="prompts-group">
+                    <div class="label">Ask yourself:</div>
+                    <ul id="prompts-list">
+                        <!-- Prompts go here -->
+                    </ul>
+                </div>
+
+                <div class="counter-group">
+                    <div class="label">Then consider:</div>
+                    <div id="counter-text" class="counter-text">
+                        <!-- Counter goes here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            This tool offers perspectives, not decisions.
+        </footer>
+    </div>
+    <script type="module" src="popup.js"></script>
+</body>
+
+</html>
